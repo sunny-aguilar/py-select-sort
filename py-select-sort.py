@@ -26,5 +26,6 @@ def select_sort(arr):
 
 
 # call main
-def
+main()
+
 
