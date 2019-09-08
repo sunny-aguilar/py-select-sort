@@ -12,7 +12,7 @@ def find_smallest(arr):
     return smallest_index
 
 def select_sort():
-
+    new_array = []
 
 
 
