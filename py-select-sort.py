@@ -14,7 +14,8 @@ def find_smallest(arr):
             smallest_index = i
     return smallest_index
 
-#
+# sorts an array by iterating through it and pulling out the smallest
+# while forming a new array with this new value
 def select_sort(arr):
     new_array = []
     for i in range(len(arr)):
