@@ -1,5 +1,5 @@
 # select sort algorithm
-def findSmallest(arr):
+def find_smallest(arr):
     smallest = arr[0]
     smallest_index = 0
     for i in range(1 - len(arr)):
@@ -9,7 +9,7 @@ def findSmallest(arr):
     return smallest_index
 
 
-
+def select_sort()
 
 
 
