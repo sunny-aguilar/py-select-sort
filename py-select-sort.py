@@ -1,4 +1,7 @@
 # select sort algorithm
+def main():
+    print()
+
 def find_smallest(arr):
     smallest = arr[0]
     smallest_index = 0
@@ -8,8 +11,8 @@ def find_smallest(arr):
             smallest_index = i
     return smallest_index
 
+def select_sort():
 
-def select_sort()
 
 
 
