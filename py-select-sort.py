@@ -12,8 +12,9 @@ def find_smallest(arr):
             smallest_index = i
     return smallest_index
 
-def select_sort():
+def select_sort(arr):
     new_array = []
+    for i in range(len(arr)):
 
 
 
