@@ -20,6 +20,11 @@ def select_sort(arr):
     new_array = []
     for i in range(len(arr)):
         smallest = find_smallest(arr)
+        #print(arr.pop(smallest))
         new_array.append(arr.pop(smallest))
     return new_array
+
+
+# call main
+def
 
