@@ -2,6 +2,7 @@
 def main():
     print()
 
+# returns the index of the smallest value in an array
 def find_smallest(arr):
     smallest = arr[0]
     smallest_index = 0
