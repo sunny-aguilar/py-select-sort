@@ -7,3 +7,9 @@ def findSmallest(arr):
             smallest = arr[i]
             smallest_index = i
     return smallest_index
+
+
+
+
+
+
