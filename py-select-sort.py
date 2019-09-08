@@ -16,6 +16,6 @@ def select_sort(arr):
     new_array = []
     for i in range(len(arr)):
         smallest = find_smallest(arr)
-
+        new_array.append(arr.pop(smallest))
 
 
