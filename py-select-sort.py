@@ -1,6 +1,7 @@
 # select sort algorithm
 def main():
     array = [34, 12, 10, 3, 8, 2, 9, 1, 32, 22, 15, 14]
+
     print(select_sort(array))
 
 
@@ -8,7 +9,7 @@ def main():
 def find_smallest(arr):
     smallest = arr[0]
     smallest_index = 0
-    for i in range(1 - len(arr)):
+    for i in range(1, len(arr)):
         if arr[i] < smallest:
             smallest = arr[i]
             smallest_index = i
@@ -20,7 +21,6 @@ def select_sort(arr):
     new_array = []
     for i in range(len(arr)):
         smallest = find_smallest(arr)
-        #print(arr.pop(smallest))
         new_array.append(arr.pop(smallest))
     return new_array
 
